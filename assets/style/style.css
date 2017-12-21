@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Pompadur; /* Имя шрифта */
+    src: url("Star_Jedi_Rounded.ttf"); /* Путь к файлу со шрифтом */
+   }
+
+body,
+h1,
+h2,
+p {
+	margin: 0;
+	font-family: "Pompadur";
+}
+body {
+	background-image: url("../image/fon.jpg");
+}
+* {
+	box-sizing: border-box;
+}
+h1 {
+	color: white;
+	font-size: 40px;
+}
+.sectoin {
+	width: 100%;
+	text-align: center;
+}
+.epi img {
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px;
+}
+.yeti img {
+	height: 100px;
+	width: 100px;
+}
+.info {
+	min-height: 100vh;
+}
+.god {
+	text-align: center;
+	color: pink;
+} 
+.wtf-block {
+	min-height: 100vh;
+}
+.epis {
+	min-height: 100vh;
+}
