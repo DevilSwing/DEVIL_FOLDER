@@ -9,6 +9,8 @@ h2,
 p {
 	margin: 0;
 	font-family: "Pompadur";
+	color: #ffc810;
+	text-align: center;
 }
 body {
 	background-image: url("../image/fon.jpg");
@@ -17,10 +19,9 @@ body {
 	box-sizing: border-box;
 }
 h1 {
-	color: white;
 	font-size: 40px;
 }
-.sectoin {
+.section {
 	width: 100%;
 	text-align: center;
 }
@@ -29,20 +30,52 @@ h1 {
 	width: 100%;
 	padding: 20px 15px;
 }
+.epi p {
+	text-align: center;
+	font-weight: 900;
+	font-size: 22px;
+
+}
 .yeti img {
+	position: absolute;
+	bottom: 20px;
 	height: 100px;
 	width: 100px;
 }
+.yeti-img-1 {
+
+	left: 20px;
+}
+.yeti-img-2 {
+	right: 20px;
+}
 .info {
+	position: relative;
 	min-height: 100vh;
 }
 .god {
 	text-align: center;
-	color: pink;
 } 
 .wtf-block {
 	min-height: 100vh;
 }
 .epis {
 	min-height: 100vh;
+}
+@media screen and (min-width: 320px) {
+	.yeti img{
+		 width: 20vw;
+		 height: auto;
+	}
+
+.epi p {
+	width: 20vw;
+		 height: auto;
+}
+
+}
+
+.epi {
+	display: inline-block;
+	max-width: 400px;
 }
