@@ -1,6 +1,6 @@
 @font-face {
     font-family: Pompadur; /* Имя шрифта */
-    src: url("Star_Jedi_Rounded.ttf"); /* Путь к файлу со шрифтом */
+    src: url(" ../style/Star_Vader.ttf"); /* Путь к файлу со шрифтом */
    }
 
 body,
@@ -53,6 +53,23 @@ h1 {
 	position: relative;
 	min-height: 100vh;
 }
+
+.gif-tag {
+	position: absolute;
+	max-width: 100%;
+}
+
+.gif-1 {
+position: absolute;
+left: 24px;
+top:  13px;
+}
+.gif-2 {
+position: absolute;
+left: 34px;
+bottom: 100px;
+}
+
 .god {
 	text-align: center;
 	font-weight: 900;
@@ -71,7 +88,6 @@ h1 {
 	}
 
 .epi p {
-	width: 20vw;
 		 height: auto;
 }
 
