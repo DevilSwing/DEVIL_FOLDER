@@ -55,6 +55,8 @@ h1 {
 }
 .god {
 	text-align: center;
+	font-weight: 900;
+	font-size: 32px;
 } 
 .wtf-block {
 	min-height: 100vh;
@@ -77,5 +79,6 @@ h1 {
 
 .epi {
 	display: inline-block;
-	max-width: 400px;
+	max-width: 300px;
+	max-height: 500px;
 }
